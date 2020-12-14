@@ -108,8 +108,8 @@ function formatUsages(usages) {
 
     const item = {
         icon: 'font-awesome:fa-external-link-square',
-        title: '用法与例子',
-        badge: result.length.toString().concat(' 种'),
+        title: 'Usage and examples',
+        badge: result.length.toString().concat(' Items'),
     }
 
     item.actionReturnsItems = true;
@@ -152,8 +152,8 @@ function formatExamples(examples) {
 
     const item = {
         icon: 'font-awesome:fa-external-link-square',
-        title: '查看例句',
-        badge: `${examples[0].length} 种`,
+        title: 'View example sentences',
+        badge: `${examples[0].length} Items`,
     };
 
     item.actionArgument = {items: children};
@@ -182,8 +182,8 @@ function formatSynonyms(synonyms) {
 
     const item = {
         icon: 'font-awesome:fa-external-link-square',
-        title: '同义词',
-        badge: `${children.length} 种`
+        title: 'Synonym',
+        badge: `${children.length} Items`
     }
 
     item.actionReturnsItems = true;
@@ -215,7 +215,7 @@ function trans(options) {
 function otherLanguages(argument) {
     return LANGUAGES.map((lang, index) => {
         return {
-            label: index === 0 ? '按回车翻译到此语言' : '',
+            label: index === 0 ? 'Press Enter to translate to this language' : '',
             icon: lang[2],
             actionArgument: {
                 text: argument,
@@ -236,7 +236,7 @@ function otherLanguages(argument) {
  * @return     {items}
  */
 function formatRelatedWords(related) {
-    const item = {title: '相关词汇', icon: 'font-awesome:fa-external-link-square'};
+    const item = {title: 'Related term', icon: 'font-awesome:fa-external-link-square'};
 
     const children = related.map(group => {
         const [kind, words, samples] = group;
@@ -256,7 +256,7 @@ function formatRelatedWords(related) {
 
     item.actionReturnsItems = true;
     item.action = 'listItems';
-    item.badge = `${children.length} 种`;
+    item.badge = `${children.length} Items`;
     item.actionArgument = {items: children};
 
     return [ item ];

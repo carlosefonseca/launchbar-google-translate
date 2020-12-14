@@ -5,7 +5,7 @@
 	<key>CFBundleIconFile</key>
 	<string>google-translate.png</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.djangowong.LaunchBar.action.GoogleTranslate</string>
+	<string>com.carlosefonseca.LaunchBar.action.GoogleTranslate</string>
 	<key>CFBundleName</key>
 	<string>Google Translate</string>
 	<key>CFBundleVersion</key>
@@ -15,13 +15,13 @@
 	<key>LBDescription</key>
 	<dict>
 		<key>LBAuthor</key>
-		<string>Django Wong</string>
+		<string>Carlos Fonseca (based on work by Django Wong)</string>
 		<key>LBEmail</key>
-		<string>me@djangowong</string>
+		<string>carlosefonseca@gmail.com</string>
 		<key>LBTwitter</key>
-		<string></string>
+		<string>carlosefonseca</string>
 		<key>LBWebsiteURL</key>
-		<string>djangowong.com</string>
+		<string></string>
 	</dict>
 	<key>LBScripts</key>
 	<dict>
@@ -46,6 +46,6 @@
 		</dict>
 	</dict>
 	<key>LBTextInputTitle</key>
-	<string>谷歌翻译</string>
+	<string>Google Translate</string>
 </dict>
 </plist>

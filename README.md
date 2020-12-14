@@ -1,8 +1,10 @@
 A Launchbar action to use Google Translate
 
+A translation to English of https://github.com/django-wong/launchbar-google-translate.
+
 ---
 
-![https://raw.githubusercontent.com/django-wong/launchbar-google-translate/master/Contents/Resources/demo.png](https://raw.githubusercontent.com/django-wong/launchbar-google-translate/master/Contents/Resources/demo.png)
+![https://raw.githubusercontent.com/carlosefonseca/launchbar-google-translate/master/Contents/Resources/demo.png](https://raw.githubusercontent.com/carlosefonseca/launchbar-google-translate/master/Contents/Resources/demo.png)
 
 #### Install
 
